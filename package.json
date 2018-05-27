@@ -1,0 +1,21 @@
+{
+  "name": "my-simple-npm-project",
+  "version": "1.0.0",
+  "description": "@Description Use NPM in my Javascript project\r @Author barna10\r @Date barna10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "barna10",
+  "license": "ISC",
+  "dependencies": {
+    "arithmetic": "^1.0.1",
+    "repeat-string": "^1.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-command": "^0.2.0"
+  }
+}
